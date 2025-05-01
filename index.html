@@ -21,7 +21,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
-
+<style>
+.button {
+  display: inline-block;
+  border: 0;
+  font-weight: 600;
+  padding: 13px 36px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 23px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all  ease 0.3s;
+}
+.button:hover {
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.button:active {
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+</style>
 <body>
 
   <!-- PRELOADER -->
@@ -52,10 +84,10 @@
         <li><a href="#hero"><span data-hover="Home">Home</span></a></li>
         <li><a href="#about"><span data-hover="About">About</span></a></li>
         <li><a href="#services"><span data-hover="Services">Services</span></a></li>
-        <li><a href="#testimonials"><span data-hover="Testimonials">Testimonials</span></a></li>
-        <li><a href="#portfolio"><span data-hover="Portfolio">Portfolio</span></a></li>
+        <li><a href="#testimonials"><span data-hover="Testimonials">Privacy Policy</span></a></li>
+        <!-- <li><a href="#portfolio"><span data-hover="Portfolio">Portfolio</span></a></li>
         <li><a href="#news"><span data-hover="News">News</span></a></li>
-        <li><a href="#contact"><span data-hover="Contact">Contact</span></a></li>
+        <li><a href="#contact"><span data-hover="Contact">Contact</span></a></li> -->
       </ul>
     </nav>
   </header>
@@ -69,11 +101,14 @@
   <div class="swiper-container classic">
     <div class="swiper-wrapper">
       <!-- Slide: Digital Marketing -->
-      <div class="swiper-slide" style="background-image:url(img/digital-marketing.jpg)">
+      <!-- New Slide for Kondotty Chatbot -->
+      <div class="swiper-slide" style="background-image:url(img/chatbotslide.jpg)">
         <div class="slider-content">
-          <span>Boost Your Business with</span>
-          <h1>Digital Marketing</h1>
-          <a href="#digital-marketing" class="site-btn top_30">Explore Now</a>
+          <span>Connecting Kondotty – One Click at a Time!</span>
+          <h1>Your Kondotty Assistant</h1>
+          <p>Your all-in-one local assistant for shopping, booking, jobs, and more—right on WhatsApp.</p>
+          <a href="https://wa.me/919846600084" target="_blank" class="btn btn-success button">Try the Chatbot</a>
+          <!-- <a href="https://wa.me/919846600084"class="btn btn-success"> WhatsApp></a> -->
         </div>
       </div>
       <!-- Slide: Shopping -->
@@ -87,7 +122,7 @@
       <!-- Slide: Business Directory -->
       <div class="swiper-slide" style="background-image:url(img/business-directory.jpg)">
         <div class="slider-content">
-          <span>Find Any Service or Shop</span>
+          <span>Find Any Service or Shops</span>
           <h1>Business Directory</h1>
           <a href="#directory" class="site-btn top_30">Search Now</a>
         </div>
@@ -98,6 +133,13 @@
           <span>Stay Updated with</span>
           <h1>Kondotty News</h1>
           <a href="#news" class="site-btn top_30">Read Updates</a>
+        </div>
+      </div>
+      <div class="swiper-slide" style="background-image:url(img/digital-marketing.jpg)">
+        <div class="slider-content">
+          <span>Boost Your Business with</span>
+          <h1>Digital Marketing</h1>
+          <a href="#digital-marketing" class="site-btn top_30">Explore Now</a>
         </div>
       </div>
     </div>
@@ -261,233 +303,104 @@
 
     <!-- TESTIMONIALS 
 ==================================================-->
-    <section class="testimonial" id="testimonials">
-      <div class="container wow fadeInUp">
-        <div class="section-title bottom_15 top_30">
-          <h2 class="title">Testimonials.</h2>
-          <span>what the people saying about us</span>
-        </div>
-        <div class="owl-carousel owl-theme testimonials" data-autoplay="true" data-items-desktop="3"
-          data-items-desktop-small="3" data-items-tablet="2" data-items-tablet-small="1" data-margin="30">
-          <!-- a comment -->
-          <div class="item">
-            <div class="outitem">
-              <figure><img src="img/team-1.jpg" alt=""></figure>
-              <div class="name">
-                <h3 class="title">Adam S. Benedetto</h3>
-                <span>Customer</span>
-              </div>
-              <p>"Thanks for the great service. It's the perfect solution for our business. Since I invested in
-                tavonline I made over 100,000 dollars profits. You guys rock!"</p>
-            </div>
+<section class="testimonial" id="testimonials">
+  <div class="container wow fadeInUp">
+    <div class="section-title bottom_15 top_30">
+      <h2 class="title">Testimonials.</h2>
+      <span>What people are saying about Kondotty Local Chatbot</span>
+    </div>
+    <div class="owl-carousel owl-theme testimonials" data-autoplay="true" data-items-desktop="3"
+      data-items-desktop-small="3" data-items-tablet="2" data-items-tablet-small="1" data-margin="30">
+
+      <!-- Testimonial 1 -->
+      <div class="item">
+        <div class="outitem">
+          <figure><img src="img/default.jpg" alt="shop owner"></figure>
+          <div class="name">
+            <h3 class="title">Faisal K.</h3>
+            <span>Grocery Shop Owner, Kondotty</span>
           </div>
-          <!-- a comment -->
-          <div class="item">
-            <div class="outitem">
-              <figure><img src="img/team-2.jpg" alt=""></figure>
-              <div class="name">
-                <h3 class="title">Jean D. Costa</h3>
-                <span>Customer</span>
-              </div>
-              <p>"Thanks for the great service. It's the perfect solution for our business. Since I invested in
-                tavonline I made over 100,000 dollars profits. You guys rock!"</p>
-            </div>
-          </div>
-          <!-- a comment -->
-          <div class="item">
-            <div class="outitem">
-              <figure><img src="img/team-3.jpg" alt=""></figure>
-              <div class="name">
-                <h3 class="title">Henry S. England</h3>
-                <span>Customer</span>
-              </div>
-              <p>"Thanks for the great service. It's the perfect solution for our business. Since I invested in
-                tavonline I made over 100,000 dollars profits. You guys rock!"</p>
-            </div>
-          </div>
-          <!-- a comment -->
-          <div class="item">
-            <div class="outitem">
-              <figure><img src="img/team-1.jpg" alt=""></figure>
-              <div class="name">
-                <h3 class="title">Adam S. Benedetto</h3>
-                <span>Customer</span>
-              </div>
-              <p>"Thanks for the great service. It's the perfect solution for our business. Since I invested in
-                tavonline I made over 100,000 dollars profits. You guys rock!"</p>
-            </div>
-          </div>
+          <p>"Using the chatbot, my daily orders doubled! Customers now order groceries directly on WhatsApp—super convenient and easy to manage."</p>
         </div>
       </div>
-    </section>
 
-    <!-- PORTFOLIO 
-================================================== -->
-    <section id="portfolio" class="portfolio graybg">
-      <div class="container wow fadeInUp">
-        <div class="col-lg-12">
-          <div class="section-title bottom_15 top_30">
-            <h2 class="title">Our portfolio.</h2>
-            <span>what the people saying about us</span>
+      <!-- Testimonial 2 -->
+      <div class="item">
+        <div class="outitem">
+          <figure><img src="img/default.jpg" alt="event planner"></figure>
+          <div class="name">
+            <h3 class="title">Nimisha R.</h3>
+            <span>Event Organizer</span>
           </div>
-          <!-- Filter -->
-          <div class="portfolio_filter">
-            <ul>
-              <li><a class="select-cat" data-filter="*" href="#">All Works</a></li>
-              <li><a data-filter=".webdesign" href="#">Web Design</a></li>
-              <li><a data-filter=".branding" href="#">Branding</a></li>
-              <li><a data-filter=".application" href="#">Application</a></li>
-            </ul>
+          <p>"We promoted our Onam event using the chatbot. Within hours, the whole town knew about it. It's a must-have for any local event."</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="item">
+        <div class="outitem">
+          <figure><img src="img/default.jpg" alt="user"></figure>
+          <div class="name">
+            <h3 class="title">Mohammed Shafi</h3>
+            <span>Taxi Driver, Kondotty</span>
           </div>
+          <p>"Now customers can book my taxi service with just a message. The chatbot connects me with more riders than before."</p>
         </div>
-        <!-- Portfolio -->
-        <div class="row masonry clearfix">
-          <!-- a work -->
-          <a href="https://www.youtube.com/watch?v=M-M3rdL_WLQ"
-            class="col-lg-4 col-sm-6 grid-item photography video-icon">
-            <figure class="portfolio-item">
-              <img src="img/works/work-1/01.jpg" alt="" />
-              <figcaption>
-                <h3 class="title">Loud Website</h3>
-                <span>Website </span>
-              </figcaption>
-            </figure>
-          </a>
-          <!-- a work -->
-          <a href="project-detail.html" class="col-lg-4 col-sm-6 grid-item branding link-icon">
-            <figure class="portfolio-item">
-              <img src="img/works/work-2/01.jpg" alt="" />
-              <figcaption>
-                <h3 class="title">Champion</h3>
-                <span> Branding </span>
-              </figcaption>
-            </figure>
-          </a>
-          <!-- a work -->
-          <a href="img/works/work-3/01.jpg" class="col-lg-4 col-sm-6 grid-item application lightbox-icon">
-            <figure class="portfolio-item">
-              <img src="img/works/work-3/01.jpg" alt="" />
-              <figcaption>
-                <h3 class="title">Doddy App</h3>
-                <span>Application </span>
-              </figcaption>
-            </figure>
-          </a>
-          <!-- a work -->
-          <a href="img/works/work-4/01.jpg" class="col-lg-4 col-sm-6 grid-item photography lightbox-icon">
-            <figure class="portfolio-item">
-              <img src="img/works/work-4/01.jpg" alt="" />
-              <figcaption>
-                <h3 class="title">Sol Republic</h3>
-                <span> Branding </span>
-              </figcaption>
-            </figure>
-          </a>
-          <!-- a work -->
-          <a href="img/works/work-5/01.jpg" class="col-lg-4 col-sm-6 grid-item branding lightbox-icon">
-            <figure class="portfolio-item">
-              <img src="img/works/work-5/01.jpg" alt="" />
-              <figcaption>
-                <h3 class="title">Logo Design</h3>
-                <span> Branding </span>
-              </figcaption>
-            </figure>
-          </a>
-          <!-- a work -->
-          <a href="img/works/work-6/01.jpg" class="col-lg-4 col-sm-6 grid-item webdesign lightbox-icon">
-            <figure class="portfolio-item">
-              <img src="img/works/work-6/01.jpg" alt="" />
-              <figcaption>
-                <h3 class="title">New Art Style</h3>
-                <span> Web Design </span>
-              </figcaption>
-            </figure>
-          </a>
-        </div> <!--  masonry end -->
+      </div>
 
-        <div class="text-center load-more" data-wow-delay="0.2s">
-          <button class="site-btn" data-tilt=""> LOAD MORE
-            <i class="icon ion-md-arrow-down"></i>
-          </button>
-          <ul id="pagination-selector" class="portfolio-pagination list-inline d-none">
-            <li class="list-inline-item">1</li>
-            <li class="list-inline-item"><a href="page-2.html">2</a></li>
-          </ul>
+      <!-- Testimonial 4 -->
+      <div class="item">
+        <div class="outitem">
+          <figure><img src="img/default.jpg" alt="resident"></figure>
+          <div class="name">
+            <h3 class="title">Ruksana M.</h3>
+            <span>Local Resident</span>
+          </div>
+          <p>"From job listings to local deals, I use the Kondotty chatbot almost daily. It feels like having a digital assistant for our town."</p>
         </div>
+      </div>
 
-      </div> <!-- container end -->
-    </section>
+    </div>
+  </div>
+</section>
 
+
+   
 
     <!-- NEWSLETTER 
 ================================================== -->
-    <section class="newsletter imagebg text-center">
-      <div class="container">
-        <div class="section-title center bottom_15 top_30 bottom_45">
-          <h2 class="title">Our newsletter.</h2>
-          <span>what the people saying about us</span>
-        </div>
-        <p>We diminution preference thoroughly if. Joy deal pain view much her time. Led young gay would now state.
-           Pronounce we attention admitting on assurance of suspicion conveying</p>
-        <div class="col-lg-8 offset-lg-2">
-          <input class="emailput" placeholder="Your email">
-        </div>
-        <button type="submit" value="SEND" class="site-btn top_30">SUBSCRIBE</button>
-      </div>
-    </section>
+<section class="newsletter imagebg text-center">
+  <div class="container">
+    <div class="section-title center bottom_15 top_30 bottom_45">
+      <h2 class="title">Why Use My Kondotty?</h2>
+      <span>Your all-in-one local digital companion</span>
+    </div>
+    <p>
+      My Kondotty is a free and easy-to-use platform designed to keep you connected with your local community. 
+      It offers real-time local updates and is fully accessible through WhatsApp, making it incredibly convenient. 
+      Whether you're looking to promote your business or stay informed, My Kondotty supports you with trusted and verified listings. 
+      Experience seamless access to everything Kondotty has to offer—all from the palm of your hand.
+    </p>
+  </div>
+</section>
+
 
     <!-- OUR NEWS 
 ================================================== -->
-    <section id="news" class="news">
-      <div class="container wow fadeInUp">
-        <div class="section-title bottom_15 top_30 bottom_45">
-          <h2 class="title">Our news.</h2>
-          <span>what the people saying about us</span>
-        </div>
-        <div class="row">
-          <!-- anews -->
-          <div class="col-lg-4">
-            <a class="anews" href="single-news.html">
-              <div class="image" style="background-image:url(img/news-1.jpg)"></div>
-              <div class="date">
-                <h3 class="big">23</h3>
-                <span class="little">MARCH, 19</span>
-              </div>
-              <div class="category">LIFESTYLE</div>
-              <h2 class="title">Curiosity continual belonging offending so explained it exquisite...</h2>
-            </a>
-          </div>
-          <!-- anews -->
-          <div class="col-lg-4">
-            <a class="anews" href="single-news.html">
-              <div class="image" style="background-image:url(img/news-2.jpg)"></div>
-              <div class="date">
-                <h3 class="big">26</h3>
-                <span class="little">MARCH, 19</span>
-              </div>
-              <div class="category">DESIGN</div>
-              <h2 class="title">Friendly as stronger speedily by recurred. Son interest wandered...</h2>
-            </a>
-          </div>
-          <!-- anews -->
-          <div class="col-lg-4">
-            <a class="anews" href="single-news.html">
-              <div class="image" style="background-image:url(img/news-3.jpg)"></div>
-              <div class="date">
-                <h3 class="big">18</h3>
-                <span class="little">MARCH, 19</span>
-              </div>
-              <div class="category">PHOTOGRAPHY</div>
-              <h2 class="title">Manners beloved affixed picture men ask. Explain few led parties...</h2>
-            </a>
-          </div>
-        </div> <!-- row end -->
-        <div class="col-lg-12 text-center">
-          <a href="news.html" class="site-btn top_30">LOAD MORE</a>
-        </div>
+<section id="join" class="join-community text-center">
+  <div class="container wow fadeInUp">
+    <div class="section-title bottom_15 top_30 bottom_45">
+      <h2 class="title">Join the Community</h2>
+      <span>Promote your business or post an ad easily</span>
+    </div>
+    <p>Want to promote your business or post an ad? Chat with us on WhatsApp or email us:</p>
+    <ul class="list-unstyled top_20">
+      <li><strong>WhatsApp:</strong> <a href="https://wa.me/919846600084" target="_blank">Click to Chat</a></li>
+      <li><strong>Email:</strong> <a href="mailto:hellomykondotty@gmail.com ">hellomykondotty@gmail.com </a></li>
+    </ul>
+  </div>
+</section>
 
-      </div>
-    </section>
 
     <!-- CONTACT
 ================================================== -->
@@ -498,11 +411,7 @@
           <span>get in touch</span>
         </div>
         <!-- Map -->
-        <div class="contact-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36479.43458460815!2d-118.3131125302928!3d34.05808678462837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos+Angeles%2C+Kaliforniya%2C+Birle%C5%9Fik+Devletler!5e0!3m2!1str!2str!4v1551872109031"
-            height="450" style="border:0" allowfullscreen=""></iframe>
-        </div>
+        
 
         <div class="getintouch row top_120">
           <!-- contact info -->
@@ -510,7 +419,7 @@
             <!-- info -->
             <div class="info">
               <i class="fas fa-paper-plane"></i>
-              <a href="#">hello@Nebro.com</a>
+              <a href="mailto:hellomykondotty@gmail.com">hellomykondotty@gmail.com</a>
               <p> Email </p>
             </div>
             <!-- info -->
@@ -550,18 +459,7 @@
 
       </div> <!-- Container end -->
 
-      <div class="container wow fadeInUp">
-        <!-- CLIENTS -->
-        <ul class="bxslider">
-          <li><img src="img/clients/client-1w.png" alt="" /></li>
-          <li><img src="img/clients/client-2w.png" alt="" /></li>
-          <li><img src="img/clients/client-3w.png" alt="" /></li>
-          <li><img src="img/clients/client-4w.png" alt="" /></li>
-          <li><img src="img/clients/client-5w.png" alt="" /></li>
-          <li><img src="img/clients/client-6w.png" alt="" /></li>
-          <li><img src="img/clients/client-7w.png" alt="" /></li>
-        </ul>
-      </div>
+      
 
     </section>
 
@@ -574,7 +472,7 @@
         <!-- Copyright -->
         <div class="col-lg-4 copyright">
           <a href="index.html"><img src="img/logo.png" alt=""></a>
-          <p>© 2019 Nebro Creative Agency.</p>
+          <p>© 2023 My Kondotty Creative Agency.</p>
         </div>
         <!-- Social -->
         <div class="col-lg-4 ftr-social">
