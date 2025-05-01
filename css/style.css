@@ -1,3 +1,26 @@
+/* --------------------------------- */
+/* Css Styles                        */
+/*---------------------------------- */
+
+/**
+    Cenky  - Portfolio Template 
+    Author : Soonlabs
+    Copyright 2019
+
+
+/* Table of Content
+==================================================
+
+    1. Body and Core Css
+    2. Home Section
+    3. About Section
+    4. Portfolio Section
+    5. News Page
+    6. Contact Page
+    6. Color 
+    7. Responsive
+*/ 
+
 @import url("margins.css");
 @import url("reset.css");
 @import url("assets.css");
@@ -70,7 +93,6 @@ margin-bottom: 10px;
 }
 
 #preloader.loaded .left-side {
-  transform: translateX(-100%);
   transform: translateX(-100%);
   transition-delay: 1s;
 }
@@ -165,6 +187,10 @@ width: 60%;
 right: 0 !important;
 }
 
+.nav-icon {
+  margin-top: 20px;
+}
+
 
 /* Menu When Open */
 
@@ -203,11 +229,8 @@ header{
   position: absolute;
   width: 100%;
   z-index: 2;
-  padding: 20px 70px;
+  padding: 30px 50px;
   z-index: 100;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 header.fixed{
@@ -215,10 +238,21 @@ header.fixed{
   background: #000;
 }
 
+header .logo{
+  float: left;
+}
+
 header .logo img{
   width: 20%;
 }
 
+nav ul {
+  margin-top: 20px;
+}
+
+header nav{
+  float: right;
+}
 
 header nav ul li{
   float: left;
@@ -510,7 +544,6 @@ header nav ul li a:focus{
   -webkit-align-items: center;
   align-items: center;
   background-size: cover;
-  background-position: center;
 }
 
 .slider-content{
@@ -531,14 +564,6 @@ header nav ul li a:focus{
   -moz-transform: translateX(100px);
   -ms-transform: translateX(100px);
   -o-transform: translateX(100px);
-}
-
-.slider-content p {
-  color: #fff;
-  font-size: 16px;
-  line-height: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .slider-content span{
@@ -1768,20 +1793,20 @@ footer .getintouch p {
 
 
 .slider-content span:before, .site-btn, .section-title:before, .swiper-pagination-bullet-active{
-  background: #64ba40;
+  background: #25d366;
 }
 
 
 .section-title span, .counter .title, .testimonials .item span, .anews .category, .article-comments .comment-content .reply, .news-article .category{
-  color: #64ba40;
+  color: #25d366;
 }
 
 .service:hover{
-  background: #64ba40 !important;
+  background: #25d366 !important;
 }
 
 .site-btn:hover{
-  background: #296727;
+  background: #356b35;
 }
 
 .nav-icon{
@@ -1835,6 +1860,7 @@ footer .getintouch p {
     padding-top: 20px;
     padding-bottom: 10px;
     line-height: 30px;
+    margin-top: 30px;
   }
 
   .slider-content h1 {
@@ -2060,22 +2086,4 @@ section {
   font-size: 40px;
   line-height: 50px;
 }
-}
-
-.service-background {
-  width: 100%;
-  height: fit-content;
-  background-image: url("../img/logo-water.png");
-  background-repeat: no-repeat;
-  background-position: center 70%;
-  background-attachment: fixed;
-}
-
-.privacy-policy {
-  text-align: justify;
-}
-
-.nav-links {
-  display: flex;
-  gap: 30px;
 }

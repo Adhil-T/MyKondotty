@@ -53,6 +53,7 @@
   text-decoration: none;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
+
 </style>
 <body>
 
@@ -66,31 +67,31 @@
     <div class="right-side"></div>
   </div>
 
-  <!-- HEADER 
+<!-- HEADER 
 ==================================================-->
-  <header>
-    <!-- Logo -->
-    <div class="logo">
-      <img src="img/logo.png" alt="">
-    </div>
-    <div class="nav-icon">
+<header>
+  <!-- Logo -->
+  <div class="logo">
+    <img src="img/logo.png" alt="">
+  </div>
+   <div class="nav-icon">
       <span></span>
       <span></span>
       <span></span>
-    </div>
-    <!-- Navigation -->
-    <nav>
-      <ul>
-        <li><a href="index.html"><span data-hover="Home">Home</span></a></li>
-        <li><a href="about.html"><span data-hover="About">About</span></a></li>
-        <li><a href="services.html"><span data-hover="Services">Services</span></a></li>
-        <li><a href="privacy_policy.html"><span data-hover="Privacy">Privacy Policy</span></a></li>
-        <li><a href="contact.html"><span data-hover="Contact">Contact</span></a></li>
-      </ul>
-    </nav>
-  </header>
+  </div> 
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html"><span data-hover="Home">Home</span></a></li>
+      <li><a href="about.html"><span data-hover="About">About</span></a></li>
+      <li><a href="services.html"><span data-hover="Services">Services</span></a></li>
+      <li><a href="testimonials.html"><span data-hover="Testimonials">Testimonials</span></a></li>
+      <li><a href="contact.html"><span data-hover="Contact">Contact</span></a></li>
+    </ul>
+  </nav>
+</header>
 
-  <div class="wrapper">
+<div class="wrapper">
 
     <!-- SLIDER 
 ==================================================-->
@@ -433,7 +434,17 @@
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
+  
+  <script>
+    document.addEventListener("scroll", function () {
+      const navbar = document.querySelector(".navbar");
+      if (window.scrollY > window.innerHeight * 1.1) { // 110vh
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  </script>
 </body>
 
 </html>
