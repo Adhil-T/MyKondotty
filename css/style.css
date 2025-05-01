@@ -1,4 +1,3 @@
-
 @import url("margins.css");
 @import url("reset.css");
 @import url("assets.css");
@@ -71,6 +70,7 @@ margin-bottom: 10px;
 }
 
 #preloader.loaded .left-side {
+  transform: translateX(-100%);
   transform: translateX(-100%);
   transition-delay: 1s;
 }
@@ -215,17 +215,10 @@ header.fixed{
   background: #000;
 }
 
-header .logo{
-  float: left;
-}
-
 header .logo img{
   width: 20%;
 }
 
-header nav{
-  float: right;
-}
 
 header nav ul li{
   float: left;
@@ -517,6 +510,7 @@ header nav ul li a:focus{
   -webkit-align-items: center;
   align-items: center;
   background-size: cover;
+  background-position: center;
 }
 
 .slider-content{
@@ -537,6 +531,14 @@ header nav ul li a:focus{
   -moz-transform: translateX(100px);
   -ms-transform: translateX(100px);
   -o-transform: translateX(100px);
+}
+
+.slider-content p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .slider-content span{
@@ -1766,20 +1768,20 @@ footer .getintouch p {
 
 
 .slider-content span:before, .site-btn, .section-title:before, .swiper-pagination-bullet-active{
-  background: #ff0e2a;
+  background: #64ba40;
 }
 
 
 .section-title span, .counter .title, .testimonials .item span, .anews .category, .article-comments .comment-content .reply, .news-article .category{
-  color: #ff0e2a;
+  color: #64ba40;
 }
 
 .service:hover{
-  background: #ff0e2a !important;
+  background: #64ba40 !important;
 }
 
 .site-btn:hover{
-  background: #e80000;
+  background: #296727;
 }
 
 .nav-icon{
@@ -2058,4 +2060,22 @@ section {
   font-size: 40px;
   line-height: 50px;
 }
+}
+
+.service-background {
+  width: 100%;
+  height: fit-content;
+  background-image: url("../img/logo-water.png");
+  background-repeat: no-repeat;
+  background-position: center 70%;
+  background-attachment: fixed;
+}
+
+.privacy-policy {
+  text-align: justify;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
 }
