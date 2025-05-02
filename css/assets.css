@@ -3030,16 +3030,16 @@ select.form-control-lg:not([size]):not([multiple]) {
 .has-success .form-check-label,
 .has-success .form-control-feedback,
 .has-success .form-control-label {
-    color: #25d366
+    color: #eedb13
 }
 
 .has-success .form-control {
-    border-color: #25d366
+    border-color: #eedb13
 }
 
 .has-success .input-group-addon {
-    color: #25d366;
-    border-color: #25d366;
+    color: #eedb13;
+    border-color: #eedb13;
     background-color: #eaf6ea
 }
 
@@ -3370,13 +3370,13 @@ fieldset[disabled] a.btn {
 
 .btn-success {
     color: #fff;
-    background-color: #25d366;
-    border-color: #25d366
+    background-color: #eedb13;
+    border-color: #eedb13
 }
 
 .btn-success:hover {
     color: #fff;
-    background-color: #25d366;
+    background-color: #eedb13;
     border-color: #419641
 }
 
@@ -3388,15 +3388,15 @@ fieldset[disabled] a.btn {
 
 .btn-success.disabled,
 .btn-success:disabled {
-    background-color: #25d366;
-    border-color: #25d366
+    background-color: #eedb13;
+    border-color: #eedb13
 }
 
 .btn-success.active,
 .btn-success:active,
 .show>.btn-success.dropdown-toggle {
     color: #fff;
-    background-color: #25d366;
+    background-color: #eedb13;
     background-image: none;
     border-color: #419641
 }
@@ -3567,16 +3567,16 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-success {
-    color: #25d366;
+    color: #eedb13;
     background-image: none;
     background-color: transparent;
-    border-color: #25d366
+    border-color: #eedb13
 }
 
 .btn-outline-success:hover {
     color: #fff;
-    background-color: #25d366;
-    border-color: #25d366
+    background-color: #eedb13;
+    border-color: #eedb13
 }
 
 .btn-outline-success.focus,
@@ -3587,7 +3587,7 @@ fieldset[disabled] a.btn {
 
 .btn-outline-success.disabled,
 .btn-outline-success:disabled {
-    color: #25d366;
+    color: #eedb13;
     background-color: transparent
 }
 
@@ -3595,8 +3595,8 @@ fieldset[disabled] a.btn {
 .btn-outline-success:active,
 .show>.btn-outline-success.dropdown-toggle {
     color: #fff;
-    background-color: #25d366;
-    border-color: #25d366
+    background-color: #eedb13;
+    border-color: #eedb13
 }
 
 .btn-outline-warning {
@@ -5179,8 +5179,8 @@ tbody.collapse.show {
 }
 
 .card-success {
-    background-color: #25d366;
-    border-color: #25d366
+    background-color: #eedb13;
+    border-color: #eedb13
 }
 
 .card-success .card-footer,
@@ -5235,7 +5235,7 @@ tbody.collapse.show {
 
 .card-outline-success {
     background-color: transparent;
-    border-color: #25d366
+    border-color: #eedb13
 }
 
 .card-outline-warning {
@@ -5595,12 +5595,12 @@ a.badge:hover {
 }
 
 .badge-success {
-    background-color: #25d366
+    background-color: #eedb13
 }
 
 .badge-success[href]:focus,
 .badge-success[href]:hover {
-    background-color: #25d366
+    background-color: #eedb13
 }
 
 .badge-info {
@@ -6849,12 +6849,12 @@ a.bg-primary:hover {
 }
 
 .bg-success {
-    background-color: #25d366 !important
+    background-color: #eedb13 !important
 }
 
 a.bg-success:focus,
 a.bg-success:hover {
-    background-color: #25d366 !important
+    background-color: #eedb13 !important
 }
 
 .bg-info {
@@ -10471,12 +10471,12 @@ a.text-primary:hover {
 }
 
 .text-success {
-    color: #25d366 !important
+    color: #eedb13 !important
 }
 
 a.text-success:focus,
 a.text-success:hover {
-    color: #25d366 !important
+    color: #eedb13 !important
 }
 
 .text-info {

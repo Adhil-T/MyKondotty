@@ -1824,20 +1824,20 @@ footer .getintouch p {
 
 
 /* .slider-content span:before, .site-btn, .section-title:before, .swiper-pagination-bullet-active{
-  background: #25d366;
+  background: #eedb13;
 } */
 
 
 .section-title span, .counter .title, .testimonials .item span, .anews .category, .article-comments .comment-content .reply, .news-article .category{
-  color: #25d366;
+  color: #eedb13;
 }
 
 .service:hover{
-  background: #25d366 !important;
+  background: #eedb13 !important;
 }
 
 .site-btn:hover{
-  background: #356b35;
+  background: #a1940c;
 }
 
 .nav-icon{
@@ -2147,7 +2147,7 @@ section {
 
 .sticky-button {
   position: fixed;
-  background-color: #25d366;
+  background-color: #eedb13;
   bottom: 20px;
   right: 20px;
   border-radius: 50px;
@@ -2222,7 +2222,7 @@ section {
   display: flex;
   align-items: center;
   padding: 15px 20px;
-  background-color: #25d366;
+  background-color: #eedb13;
   overflow: hidden;
 }
 
