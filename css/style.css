@@ -2088,3 +2088,11 @@ section {
   line-height: 50px;
 }
 }
+
+.policy-link a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 20px;
+} 
