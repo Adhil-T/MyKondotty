@@ -583,7 +583,7 @@ header nav ul li a:focus{
 
 .slider-content h1{
   color: #fff;
-  font-size: 120px;
+  font-size: 80px;
   font-weight: 900;
   line-height: 130px;
   opacity: 0;
@@ -1821,9 +1821,9 @@ footer .getintouch p {
 /*------------------------ Color ------------------------*/   
 
 
-.slider-content span:before, .site-btn, .section-title:before, .swiper-pagination-bullet-active{
+/* .slider-content span:before, .site-btn, .section-title:before, .swiper-pagination-bullet-active{
   background: #25d366;
-}
+} */
 
 
 .section-title span, .counter .title, .testimonials .item span, .anews .category, .article-comments .comment-content .reply, .news-article .category{
@@ -1893,7 +1893,7 @@ footer .getintouch p {
   }
 
   .slider-content h1 {
-    font-size: 100px;
+    font-size: 80px;
     line-height: 110px;
   }
 
@@ -2024,7 +2024,8 @@ footer .getintouch {
 @media screen and (max-width: 414px) {
 
 .slider-content h1 {
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: xx-large;
   line-height: 50px;
 }
 
@@ -2112,7 +2113,7 @@ section {
 }
 
 .slider-content h1 {
-  font-size: 40px;
+  font-size: xx-large;
   line-height: 50px;
 }
 }
